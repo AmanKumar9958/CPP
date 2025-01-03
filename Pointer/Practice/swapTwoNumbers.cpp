@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-void swapTwoNumber(float &num1, float &num2){
+void swapTwoNumber(float *a, float *b){
     float temp;
-    temp = num1;
-    num1 = num2;
-    num2 = temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
 }
 int main(){
     float num1, num2;
@@ -18,7 +18,7 @@ int main(){
 
     cout<<"Before swapping: "<<num1<<" and "<<num2<<endl;
 
-    swapTwoNumber(num1, num2);
+    swapTwoNumber(&num1, &num2);
 
     cout<<"After swapping: "<<num1<<" and "<<num2<<endl;;
 }

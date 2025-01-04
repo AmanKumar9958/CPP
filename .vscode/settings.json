@@ -61,6 +61,7 @@
   ],
   "files.associations": {
     "*.embeddedhtml": "html",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "iosfwd": "cpp"
   }
 }

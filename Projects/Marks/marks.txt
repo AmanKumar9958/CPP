@@ -1,0 +1,6 @@
+Subjects and Marks:
+Maths: 0
+English: 1877795171
+Hindi: -1
+Science: 32
+Social: 6421880

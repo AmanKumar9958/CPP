@@ -6,7 +6,7 @@
 // # Calculate percentage ✔
 // # Show pass/fail in each subjects ✔
 // # Highest and lowest marks
-// # Store data into a file
+// # Store data into a file ✔
 // # Sort by marks
 // # Grade calculation
 
@@ -78,5 +78,19 @@ int main(){
     cout << "\nTotal Passed: " << passCount << endl;
     cout << "Total Failed: " << failCount << endl;
 
+
+    // storing data into a file..
+    ofstream marksFile("marks.txt");
+    if(marksFile.is_open()){
+        cout<<"File created successfully"<<endl;
+        marksFile<<"Subjects and Marks:\n";
+        for(int i = 0; i < subjectsLength; i++){
+            marksFile<<subjects[i]<<": "<<marks[i]<<endl;
+        }
+        marksFile.close();
+    }
+
+
+    cin.get();
     return 0;
 }

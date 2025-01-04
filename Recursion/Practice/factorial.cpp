@@ -1,21 +1,20 @@
 #include<iostream>
 using namespace std;
 
-int factorial(int n){
-    if(n == 0 || n == 1){
+int factorial(int x){
+    // base class
+    if(x == 1 || x == 0){
         return 1;
     }
     else{
-        return n * factorial(n-1);
+        return x * factorial(x - 1);
     }
 }
+
 int main(){
-    int n;
-
+    int num;
     cout<<"Enter the number to calculate the factorial: ";
-    cin>>n;
-
-    cout<<"Factorial: "<<factorial(n)<<endl;
-
+    cin>>num;
+    cout<<"Factorial of "<<num<<": "<<factorial(num);
     return 0;
 }

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Documents/Programming/CPP/Functions/Practice",
-      "program": "d:/Documents/Programming/CPP/Functions/Practice/build/Debug/outDebug",
+      "cwd": "d:/Documents/Programming/CPP/Arrays/1DArray/Practice",
+      "program": "d:/Documents/Programming/CPP/Arrays/1DArray/Practice/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

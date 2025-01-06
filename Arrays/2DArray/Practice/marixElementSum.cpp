@@ -22,7 +22,6 @@ int main(){
             cin>>matrix[i][j];
         }
     }
-
     // Display the matrix..
     for(int i=0; i<r; i++){
         cout<<endl;
@@ -31,8 +30,9 @@ int main(){
         }
     }
 
-    cout<<endl;
 
+    cout<<endl;
+    
     // Sum of all the elements of the matrix..
     int sumOfElement = 0;
     for(int i=0; i<r; i++){

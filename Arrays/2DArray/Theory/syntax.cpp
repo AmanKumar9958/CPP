@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[4][3];
+    int arr[4][3];  // 4 rows and 3 columns..
 
     // manual input..
     // arr[0][0] = 1;

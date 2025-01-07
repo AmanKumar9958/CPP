@@ -1,5 +1,6 @@
 #include<iostream>
 #include<fstream>
+#include<cstdlib>
 
 using namespace std;
 int main(){
@@ -48,5 +49,6 @@ int main(){
         cout<<"Error in creating the file..";
     }
     
+    system("pause");
     return 0;
 }

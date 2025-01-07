@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstdlib>
 using namespace std;
 int main(){
     int n;
@@ -43,5 +44,6 @@ int main(){
         cout<<"The array is not palindrome."<<endl;
     }
 
+    system("pause");
     return 0;
 }

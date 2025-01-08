@@ -1,4 +1,0 @@
-Name: Aman Roll: 6 Marks:400
-Name: Sumit Roll: 1 Marks:450
-Name: Krish Roll: 4 Marks:465
-Name: Sunny Roll: 9 Marks:440

@@ -43,8 +43,10 @@
 </ul>
 <br> <br>
 <h3>Projects</h3>
-<p><span style="font-weight: bold">Palindrome Checker</span></p>
-<p><span style="font-weight: bold">Menu driven program for all String Functions</span></p>
-<p><span style="font-weight: bold">Storing Marks Data</span></p>
+<ul>
+  <li><p><span style="font-weight: bold">Palindrome Checker</span></p></li>
+  <li><p><span style="font-weight: bold">Menu driven program for all String Functions</span></p></li>
+  <li><p><span style="font-weight: bold">Storing Marks Data</span></p></li>
+</ul>
 <h2>Started on 1 Jan 2025</h2>
 <h2>Expected to end on 10 Jan 2025</h2>
